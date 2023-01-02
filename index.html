@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  <script type="text/javascript">
+    $(function(){
+      $('#target').click(function() {
+          //$(this).val("");  
+          $('input[name="target"]').val("");
+      });
+    });
+  </script>
+</style>
+</head>
+<body>
+      <input type="text" id="username" name="username" maxlength="12">
+      <input type="submit" value="Submit">
+      <br><br>
+       <input id="target" name="target" type="text" value="$" style="text-align:right">
+       <input type="submit" value="Submit">
+</body>
+</html>
